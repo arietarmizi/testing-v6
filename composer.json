@@ -1,0 +1,75 @@
+{
+  "name": "pertaminal",
+  "description": "Pertamina Lubricants",
+  "keywords": [
+    "Pertamina Lubricants"
+  ],
+  "homepage": "https://pertaminalubricants.com",
+  "type": "project",
+  "license": "Proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.6.0",
+    "yiisoft/yii2": "2.0.34",
+    "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+    "ramsey/uuid": "~3.7",
+    "nesbot/carbon": "~1.22",
+    "guzzlehttp/guzzle": "^6.3",
+    "akupeduli/yii2-bracket-plus": "dev-master",
+    "xj/yii2-bootbox-widget": "^1.0",
+    "nadzif/yii2-growl-js": "@dev",
+    "nadzif/yii2-grid": "@dev",
+    "nadzif/yii2-actions": "dev-master",
+    "nadzif/yii2-file-core": "@dev",
+    "wbraganca/yii2-tagsinput": "^1.0.0",
+    "monolog/monolog": "^1.25",
+    "lcobucci/jwt": "^3.3",
+    "phpseclib/phpseclib": "~3.0",
+    "spomky-labs/php-aes-gcm": "^1.2"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "~2.0.0",
+    "yiisoft/yii2-gii": "~2.0.0",
+    "yiisoft/yii2-faker": "~2.0.0",
+    "codeception/base": "^2.2.3",
+    "codeception/verify": "~0.3.1",
+    "ccampbell/chromephp": "^4.1"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/akupeduli/yii2-bracket-plus"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/nadzif/yii2-growl-js"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/nadzif/yii2-grid"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/nadzif/yii2-actions"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/nadzif/yii2-file-core"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/nadzif/yii2-base-component"
+    }
+  ]
+}
